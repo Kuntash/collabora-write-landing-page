@@ -23,6 +23,7 @@ export const SubscribeSection = () => {
         body: JSON.stringify({ email }),
       });
       toast({
+        variant: "success",
         description: "You have been successfully subscribed",
       });
     } catch (error) {

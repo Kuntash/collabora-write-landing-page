@@ -35,7 +35,7 @@ export const HeaderSection = () => {
         className="absolute bg-gradient-to-r from-indigo-500/10 via-purple-500/10 to-pink-500/10 blur-2xl w-full h-full psm:w-[120%] sm:h-[150%] -top-[20%] z-1 rounded-full"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 0.8 }}
-        transition={{ delay: 0, ease: "easeIn", duration: 2 }}
+        transition={{ delay: 0, ease: "easeIn", duration: 1 }}
       />
     </header>
   );
