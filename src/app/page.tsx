@@ -1,4 +1,5 @@
 import { HeaderSection } from "@/components/header-section";
+import { SignupSection } from "@/components/signup-section";
 import { SubscribeSection } from "@/components/subscribe-section";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
       {/* Header section */}
 
       <HeaderSection />
-      <SubscribeSection />
+      <SignupSection />
     </main>
   );
 }
